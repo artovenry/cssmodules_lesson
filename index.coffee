@@ -1,1 +1,1 @@
-alert 1
+index= require "./index.sass.json"
