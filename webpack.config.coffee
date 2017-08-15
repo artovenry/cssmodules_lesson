@@ -27,7 +27,7 @@ module.exports=
               # getJSON: (sass, json)->
               #   sass= path.basename(sass, ".sass")
               #   fs.writeFileSync path.resolve("bundled/#{sass}.json"), JSON.stringify(json)
-          Sass    : loader: "sass-loader?indexSyntax"
+          Sass    : loader: "sass-loader?indentedSyntax"
   plugins: _.flatten _.values
     ExtractText : new ExtractTextPlugin filename: "[name].css"
     Html        : _.values
